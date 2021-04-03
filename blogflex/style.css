@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #212121;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    
+}
+
+/* super info */
+.superinfo-bg{
+    background-color: #618bca;
+    color: #d6e0e4;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.superinfo{
+    display: flex;
+    max-width: 960px;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-top: 13px;
+}
+.superinfo a{
+    color: #d6e0e4;
+}
+.superinfo p, .superinfo a{
+    margin: 0 10px 10px 10px;
+}
+/* menu-bg */
+.menu-bg{
+    background-color: #394ae2;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center ;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+
+}
+.menu a{
+    color: #d6e0e4;
+}
+.menu-logo a{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-nav a{
+    font-size: 1.2em;
+    display: block;
+    padding: 10px;
+}
+.menu-nav a:hover{
+    color: blue;
+}
+.about{
+    font-size: 1.5em;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.about-info{
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    max-width: 960px;
+    margin: 0 10px;
+    padding: 10px;
+    flex: 2 1 300px;
+    
+    
+}
+.about-info h1{
+    font-size: 2.8em;
+    margin-bottom: 0.4em;
+}
+.about-info p{
+    font-size: 1.25em;
+    line-height: 1.5;
+    margin-bottom: 0.3em;
+    color: #c2c2c3;
+}
+.about-img{
+    flex: 1 1 170px;
+    margin: 0 10px;
+    
+
+}
+/* produtos */
+.products{
+    max-width: 960px;
+    margin: 50px auto;
+}
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.products h1{
+    font-size: 2.8em;
+    margin: 0 10px 12px 15px;
+}
+.products-container h2{
+    font-size: 1.8em;
+    color: #c2c1c4;
+    margin: 10px;
+    background-color: #f7f7f7;
+    flex: 1 1 180px;
+    align-items: flex-end;
+}
+.products-item-purple{
+    border-top: 8px solid #b45fecb4;
+}
+.products-item-pink{
+    border-top: 8px solid #cc10ccfb;
+    margin-top: 20px;
+}
+.products-item-blue{
+    border-top: 8px solid #1d10da5d;
+    margin-top: 25px;
+}
+/* preços */
+.price{
+    background-color: #f7f7f7;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.price-item{
+    flex: 1;
+    border: 4px solid whitesmoke;
+    padding: 25px;
+    margin: 10px;
+    
+}
+.price-item h2{
+    font-size: 2.4em;
+    color: #c3c4c7;
+    text-align: center;
+    margin-top: 20px;
+
+}
+span{
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0px 5px 0px;
+    font-size: 2.2em;
+}
+.price-item ul{
+    max-width: 300px;
+    margin: 10px 5px 5px 5px;
+    font-size: 1.25em;
+    line-height: 1;
+    color: #7c7c7c;
+}
+.price-item a{
+    display: block;
+    max-width: 300px;
+    margin: 20px auto;
+    border: 4px solid;
+    color: #222222;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.6em;
+    padding: 15px;
+    text-align: center;
+}
+/* newsletter */
+.newsleter{
+    background-color: #f2f4f3;
+    padding: 60px calc((100% - 960px) / 2);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.news-info{
+    flex: 1 1 250px;
+    margin: 0 10px;
+}
+.news-info h1{
+    font-size: 2.2em;
+    color: #a3a4a7;
+
+}
+.news-info p{
+    font-size: 1.20em;
+    max-width: 230px;
+    color: #7c7c7c;
+    margin-bottom: 10px;
+}
+.news-form{
+    flex: 2 1 260px;
+    margin: 0 10px;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.news-form input{
+    flex: 3 1 200px;
+    font-size: 1.25em;
+    color: #7c7c7c;
+    border: 4px solid whitesmoke;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    
+}
+.news-form button{
+    font-size: 2em;
+    text-transform: uppercase;
+    background-color: teal;
+    color: wheat;
+    margin: 0;
+    cursor: pointer;
+    border: 3px solid #7c7c7c;
+    cursor: pointer;
+    padding: 15px;
+}
+footer{
+    height: 200px;
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    text-align: center;
+    color: blue;
+
+}
